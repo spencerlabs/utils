@@ -2,9 +2,9 @@
 
 Handy React components
 
-For hooks see [@spencerlabs/utils/hooks](../hooks/README.md)
+For hooks see [@spencerlabs/utils/hooks](../hooks)
 
 ## Components
 
-- [Wrap](./Wrap/README.md): Conditionally wrap content
+- [Wrap](./Wrap): Conditionally wrap content
 

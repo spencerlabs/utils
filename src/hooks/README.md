@@ -2,9 +2,9 @@
 
 Handy React hooks
 
-For components see [@spencerlabs/utils/react](../react/README.md)
+For components see [@spencerlabs/utils/react](../react)
 
 ## Hooks
 
-- [useCombinedRefs](./useCombinedRefs/README.md): Combines two or more React refs into one
-- [useLocalStorage](./useLocalStorage/README.md): Get and set local storage values
+- [useCombinedRefs](./useCombinedRefs): Combines two or more React refs into one
+- [useLocalStorage](./useLocalStorage): Get and set local storage values

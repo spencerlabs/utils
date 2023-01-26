@@ -13,6 +13,12 @@ categories:
     label: 'bug'
   - title: ':book: Documentation'
     label: 'documentation'
+  - title: ':computer: Functions'
+    label: 'functions'
+  - title: ':bricks: React Components'
+    label: 'react'
+  - title: ':hook: React Hooks'
+    label: 'hooks'
 
 version-resolver:
   major:

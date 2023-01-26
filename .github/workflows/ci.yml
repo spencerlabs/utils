@@ -12,5 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: yarn
-    - name: Run tests
+    - name: Run test
       run: yarn test
+    - name: Run lint
+      run: yarn lint
+    - name: Run build
+      run: yarn build

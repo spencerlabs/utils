@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { getStorageValue } from '../../functions'
+import { getStorageValue } from '@/functions'
 
 const useLocalStorage = <V = string>(
   key: string,

@@ -2,7 +2,20 @@
   "name": "@spencerlabs/utils",
   "description": "Common reusable code utilities",
   "version": "0.1.0",
-  "packageManager": "yarn@3.3.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencerlabs/utils"
+  },
+  "homepage": "https://github.com/spencerlabs/utils",
+  "bugs": {
+    "url": "https://github.com/spencerlabs/utils/issues"
+  },
+  "keywords": ["utilities", "functions", "hooks", "components", "react"],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/spencerlabs"
+  },
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -37,5 +50,6 @@
   "eslintConfig": {
     "extends": "@spencerlabs/eslint-config",
     "root": true
-  }
+  },
+  "packageManager": "yarn@3.3.1"
 }

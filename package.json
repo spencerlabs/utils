@@ -10,7 +10,13 @@
   "bugs": {
     "url": "https://github.com/spencerlabs/utils/issues"
   },
-  "keywords": ["utilities", "functions", "hooks", "components", "react"],
+  "keywords": [
+    "utilities",
+    "functions",
+    "hooks",
+    "components",
+    "react"
+  ],
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/spencerlabs"
@@ -30,7 +36,7 @@
   },
   "scripts": {
     "test": "jest --passWithNoTests",
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist && tsc --project tsconfig.build.json",
     "build:tarball": "yarn build && yarn pack",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
